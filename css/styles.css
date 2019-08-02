@@ -1,0 +1,102 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    background-color: rgba(29, 170, 47, .16);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+.nav-list {
+    float: right;
+    
+}
+
+.logo {
+    float: left;
+    margin: 0;
+}
+
+.list-iteam {
+    float: left;
+    margin-right: 25px;
+    list-style-type: none;
+}
+
+.list-iteam a {
+    text-decoration: underline;
+}
+
+.list-iteam a:hover {
+    color: blue;
+}
+
+.hero {
+    background-image: url(../images/NEON.PNG);
+    height: 600px;
+    background-size: 100%;
+    margin-top: 0px;
+    position: relative;
+}
+
+.content-text, .content-img {
+    float: left;
+}
+
+h1{
+    color: white;
+    margin: 0;
+    font-size: 120px;
+  
+}
+
+.content-img {
+    background-image: url(../images/Artic.PNG);
+    height: 600px;
+    background-size: 100%;
+    width: 1349px;
+}
+
+.hero-content {
+    background-color:  rgba(29, 170, 47, .16);
+    height: 50px;
+    width: 105px; 
+    position: absolute;
+    top: 380px;
+    left: 480px;
+}
+
+.fa-youtube {
+    font-size: 3em;
+    color: red
+}
+
+
+.contact-container {
+    margin-top: 150px;
+    height: 500px;
+    width: 100%;
+}
+
+.contact-col {
+    height: 900px;
+    width: 48%; 
+    border: black solid 3px;
+    float: left;
+    margin-left: 14px;
+    position: relative;
+}
+
+
+
+.map {
+    position: relative;
+    top: 150;
+    left: 250;
+}
+
